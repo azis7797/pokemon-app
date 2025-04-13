@@ -1,6 +1,6 @@
 # pokemon-app# Pokémon UI (Versi Sederhana - HTML, CSS, JS)
 
-Proyek UI Pokémon ringan yang dibuat hanya dengan **HTML**, **CSS**, dan **JavaScript Vanilla**. Tidak perlu framework atau build tools.
+Proyek UI Pokémon ringan yang dibuat hanya dengan **HTML**, **CSS**, dan **JavaScrip.
 
 ## Fitur
 

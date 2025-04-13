@@ -1,0 +1,75 @@
+:root {
+    --bg-dark: #1e2a38;
+    --bg-light: #f4f4f4;
+    --text-dark: #ffffff;
+    --text-light: #1e2a38;
+    --card-bg-dark: #2b3b52;
+    --card-bg-light: #ffffff;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body.dark {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+  }
+  
+  body.light {
+    background: var(--bg-light);
+    color: var(--text-light);
+  }
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  input, select, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  #pokemon-container.grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  #pokemon-container.list-view {
+    display: block;
+    padding: 1rem;
+  }
+  
+  .pokemon-card {
+    background: var(--card-bg-dark);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  body.light .pokemon-card {
+    background: var(--card-bg-light);
+    color: #000;
+  }
+  
+  .list-view .pokemon-card {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }

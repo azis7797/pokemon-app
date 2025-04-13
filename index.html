@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokémon UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>class="dark">
+  <header class="header">
+    <img src="images/1.png" alt="logo" style="height:48px"; width="320px;border=1px">
+    </select>
+    <button id="toggleTheme">Light Mode</button>
+  </header>
+
+</body>
+ <!-- Header Start -->
+ <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
+  <div class="container">
+    <div class="relative flex items-center justify-between">
+      <div class="px-4">
+        <a href="#home" class="block py-6 text-lg font-bold text-primary"></a>
+      </div>
+<!-- Kartu Detail Pokémon -->
+<div class="pokemon-card">
+  <div class="pokemon-header">
+    <img src="images/bulbasaur.png" alt="Bulbasaur">
+    <span>#1000</span>
+  </div>
+  <h2>Bulbasaur</h2>
+  <div class="stats">
+    <div class="stat">
+      <label>Health</label>
+      <progress value="144" max="1000"></progress>
+      <span>144 from 1000</span>
+    </div>
+    <div class="stat">
+      <label>Attack</label>
+      <span>32</span>
+    </div>
+    <div class="stat">
+      <label>Defense</label>
+      <span>50</span>
+    </div>
+  </div>
+</div>
+
+<body class="dark">
+  <header class="header">
+    <img src="images/1.png" alt="logo" style="height:48px"; width="320px;border=1px">
+    <input type="text" id="search" placeholder="Search..." style="height: 32px ; width: 186px ; top: 64px ; left: 21px"> 
+    <select id="sort">
+      <option value="name">Sort by Name</option>
+      <option value="health">Sort by Health</option>
+    </select>
+    <button id="toggleView">Grid</button>
+  </header>
+
+  <main id="pokemon-container" class="grid-view">
+    <!-- Cards will be injected here -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
